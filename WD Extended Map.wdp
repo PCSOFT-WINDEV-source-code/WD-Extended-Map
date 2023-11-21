@@ -1,0 +1,200 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WD Extended Map
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : ""
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : Android application
+    internal_properties : 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
+    configuration_id : 9033748253439086912
+    type : 15
+    generation_directory : .\Exe\Android application
+    version : {}
+    language : 2
+  -
+    name : iOS application
+    internal_properties : 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
+    configuration_id : 3829212526304923527
+    type : 18
+    generation_directory : .\Exe\iOS application
+    version : {}
+    language : 2
+  -
+    name : Windows 32-bit executable
+    internal_properties : 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
+    configuration_id : 6997072520776756356
+    type : 1
+    generation_directory : .\Exe\Windows 32-bit executable
+    generation_name : WD Extended Map.exe
+    version :
+     major_version : 26
+     minor_version : 75
+     internal_generation_version : 2
+     autoincrement_version : false
+    icon_filename : .\map.ico
+    language : 2
+ elements :
+  identifier : 0x4ed7c08b0004f90f
+  elements :
+   -
+     name : WIN_MAP_WM
+     identifier : 0x4ed8e53902373f86
+     internal_properties : CAAAAAgAAAB00lxYZ9xUV4qoqyNzu2Yr0pVRAT3Hl7KiBk/q9QqKlhKIwv05yVCpV/fh36dZIZdh4Q==
+     physical_name : .\WIN_MAP_WM.wdw
+     type : 2
+     configurations :
+      -
+        configuration_id : 6997072520776756356
+        excluded : true
+   -
+     name : COL_GEO
+     identifier : 0x4fb527930032cc9e
+     internal_properties : CAAAAAgAAABv60dbaBUdziQ40Fgs8Sj8NxQCqiz22HdWbSLN9Cvj1Sf5hzX+Opn6xWBapm5iHpJ6+g==
+     physical_name : .\COL_GEO.wdg
+     type : 7
+     configurations :
+      -
+        configuration_id : 9033748253439086912
+        excluded : true
+      -
+        configuration_id : 3829212526304923527
+        excluded : true
+   -
+     name : WIN_MAP_WD
+     identifier : 0x4f07482f00e653c0
+     internal_properties : CAAAAAgAAACJhfGVEk/niPI04xaIkXF4Uf6UxAYlcR+2NRSAsn0RFzk7qzijXWIq/yqUbDSsVESMlA==
+     physical_name : .\WIN_MAP_WD.wdw
+     type : 2
+     configurations :
+      -
+        configuration_id : 9033748253439086912
+        excluded : true
+      -
+        configuration_id : 3829212526304923527
+        excluded : true
+  other_elements :
+   -
+     physical_name : .\Exe\DeliveryMan.fic
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9033748253439086912
+      -
+        internal_properties : CAAAAAgAAACgyIz/g/abg0OIcFjRU6MoPxHgdmhMlUpvgcBi+arW
+        configuration_id : 3829212526304923527
+   -
+     physical_name : .\Exe\DeliveryMan.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9033748253439086912
+      -
+        internal_properties : CAAAAAgAAACgyIz/g/abg0OIcFjRU6MoPxHgdmhMlUpvgcBi+arW
+        configuration_id : 3829212526304923527
+  analysis : .\WD Extended Map.ana\WD Extended Map.wda
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ data_directory : <RepExeOuRepDonneesCommun>
+ languages :
+  - en-GB
+ code_elements :
+  internal_properties : CAAAAAgAAAAySygPcZ4GJX0P6OaZtGImf6VeIpQpJLYsyy6IpEyeB4oR6+2AWanMnxYyL8kUO6ZLoCf7gRyLXo4A3BCx9g==
+  type_code : 0
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAAAD9dpBHd6G1p/sLwpcZwiZe818DKjNo1P3atvY2HUvx2HE9oBriLm9OEMj5HB+FQ6fqtqQELRuQEKp7MGctEIgCd1g95HQRAQoSibQ0qacZudFNB9mv3ID9PSBGHNl2wChoWMdXq8WamxO/6Q=
+     code : |1-
+      
+      local
+      <if CibleExécution <> android >
+      	
+      	MapLicenseGgl( "<Please specify your Google Maps API key>" )
+      
+      <end>		
+      <if CibleExécution = Android>
+      	
+      	// Outside simulator only
+      	if not InSimulatorMode() then
+      		
+      		// Data files are placed in a directory in the storage space
+      		let DATADIR = SysDirStorageCard() + [ fSep ] + "WD Maps"
+      		
+      		// Creates the folder
+      		fMakeDir(DATADIR)
+      		
+      		// Extracts the data file
+      		fExtractResource("DeliveryMan.fic", DATADIR)
+      		fExtractResource("DeliveryMan.ndx", DATADIR)
+      		
+      		// Changes the file location
+      		DeliveryMan.ChangeDir(DATADIR)		
+      	end
+      	
+      <else if CibleExécution = iOS>
+      	
+      	// Outside simulator only
+      	if not InSimulatorMode() then
+      		
+      		// Data files are placed in a directory in the storage space
+      		let DATADIR = fDataDir() + [ fSep ] + "WD Maps"
+      		
+      		// Creates the folder
+      		fMakeDir(DATADIR)
+      		
+      		// Extracts the data file
+      		fExtractResource("DeliveryMan.fic", DATADIR)
+      		fExtractResource("DeliveryMan.ndx", DATADIR)
+      				
+      		// Changes the file location
+      		DeliveryMan.ChangeDir(DATADIR)		
+      	end
+      	
+      <end>
+     type : 196608
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : Android application
+     identifier : 0x4ed7c0df01994267
+     code_elements :
+      type_code : 159
+      p_codes : []
+   -
+     name : iOS application
+     identifier : 0x4f073f4805698de5
+     code_elements :
+      type_code : 159
+      p_codes : []
+   -
+     name : Windows 32-bit executable
+     identifier : 0x4ed7c08b0005f90f
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

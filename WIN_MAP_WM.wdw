@@ -1,0 +1,721 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_MAP_WM
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_MAP_WM
+ identifier : 0x20353bc808554a2b
+ internal_properties : CAAAAAgAAAAWiFgK94PXbuuKLKIir8jjlTsuk0+4Z28gNE/GGBrJduV/x/b7GstyNPlSLzBHE4A111xtyuDXcQSXAfwgT4x+TmVkwhZmYM7AxnV30+q0yzL79Cc8NpE+JaPhSeo+Qnzwuo1/IS9bS7+DoJlZJKUbkceVnP/4b5ope4GnoyCKNtxXMMFxONQjKJHn8Inme8LzScvluA/figVl1TkXuvIKe9XY8d2/S3u8gAvg24udGREAsQebimqJGz7ORJIbbV7P2YaFlsZ0uD6XqJ44Vzbd1RkcOL27dAdW3+Sbszry2GT/F/M18/rxsVbzq53RIZROOOfg5a1E4Nzxw6GVACoMb2Q9DqpnhOPHEZl31AKj56HOfxk3gKc8biR3rHrbziOcArT0y3tR5n4vwKU4M3SjnkAbtEp8BEjudCtC37M9/or1OPrU3AIzLKQCg0yEkirhiXZia3M0H01tF6tjimxUKjIzJLYtJOn3goZ51brDRgGTofz1t+XHhe/+KhfT69YcrC3pSn7QSYhRopmrTdFmZgGmUw9nQLAtNe2tXBUero0QJZaecU+1gAe2MSaBrPxtyE9G/r6tzA2p2X6YZxqbuyYu5/699SJClvooQugvwEYB/yn9+rISVmL3h+MkjkpDRn3JO1G10131nyOS/pv1VAQYhOl1xj6hFjX0hwxdTMxTEMiGYiZ2kair+FhM0Uu1st8VcAHGsdlzV7iRTwlqHYYSMAch4DEvwQTjdblSr79RzUFrHFrKBVUQiChq+yStg667JSHuMM/hqx//RocWfYOjqjUKwHBggJUl22OZvsMGhXRbgMaOJHG4elgz+hfXJeApBhGjiMm31twbP261OV2/JJjVvPX6O7GkVqPKU7CeYUZBskoINg7qugo1joApAYXDQuFCfHPylWmN
+ properties :
+  width : 350
+  height : 568
+ controls :
+  -
+    name : TAB_EX
+    identifier : 0x20353bc808574a2b
+    internal_properties : CAAAAAgAAAD8+z9K4prg1ERohKCh9H38Uyo/u+0rH7HyuQcmSbtt+TT6YRKRc1F1FioCyRKp6J6TjFNnv3d//RGrNOsONsIC/WFoRU4T3Qtc3FMg/A+bdN4Nv9V64wxLZ1etoS11773/s53k8yRGqu4hd9ABy7fq9Xs9nD9zQlJHqVRXBVs4IH3HLxjpKwpYOHGqsyVikX5LS7PSXHDOqSp2rGKZXKAJHqOqodyScMtFX9a+mcGQlpuuOgAhk5CXVvzs5sE1eskCn7jIo9sNK8/lLCQLCacUVgkQy2/Ej+o2yLsYKmqJmjEesP+0tDOYNZem3cSEsrHpmw/Uaikz88jzcFsMFO4Y9ZTb2vyiUlxmB+kVdxNulmglT3pFcOiyp3AyGfOmyXqw3z0XbXaBVGUCANkfd8O13jENMNWyGYzlsSMXRac53SnoE4zsBYN02vHBKXcRqf/tAGXe0Z5DoBo6FbiGScPljzvE4s6oeDvAH8yMQHqDnmf+7XpNVmTybZlt8QdVNDEl8DRtgSJ9q+jBiFWFP6kE3vchScF/0qNnWejZLnx4o3fwDJiEE8AX0+L23T76hIu75cJyJwoxYrRht8f1EP6RJfgwUHHG0OYf8uJC9laF+HuSdlzaNogK+C/K0eLYD+pzs+xRA+z05gJ5uuxpIVV+pQuLhMVFUd8wnz3gjGmJ3HKqXVljXvH84bM2vPLJFNfIjeqr+asLtEOWa2FEwW1eClK07IIqxSAB8YDO0cvK9jQsBbJOnTqvdLzfZjVWbYVOAZ3soqTuebtaYAVFsdF2cdcwOL6nIavnvVelUar0H1ZpUe13Ws8DvpuZ5mEl6o1pQPzLLQhqN+cEJ/GKQWJbsyKfW8WNxujXuIaIdHvBdrUYhuPSMqOjPFKNDi45ijYojvbDznENO+rA9exb98rZlb4JYuw2UQ4JjDSD+zYHD9plo+kxKJyxz3QSq98=
+    properties :
+     y : 518
+     width : 320
+     height : 50
+    tabs :
+     -
+       internal_properties : CAAAAAgAAABpRTOmJQrDphBqCTMBqeY/n8/f0J2YjHfJpuUWQ15/5LAeZsYcU8t5hvgIIcLdwbv9glOP6yUZyWDu9pyG2tspHkgfmlIIaQDRArf4A8CRYvev1ZKl+kLudHvr0hH7/g2AmA1n2dTusfIr1Ht7aScA0rm163CzNAcKpSWN+abZKf5E1THQlb5PMBAoVhlljzB3Wtn0TA==
+       controls : []
+     -
+       internal_properties : CAAAAAgAAABJpN1ir4biwRK/dySPOKluj5ZwUj/1kZpt9bwKK8iZWImVJHrYOE2sEnLgPnuHDfdiG/zF9zIZxdDkvHUt3efJJ0ndR+lSalskCuHzsSoYTZUhFIsjyPX1kaaFg401E0nYLdGY+6mmOBxu8W56B1KNbLaTgCe8Fx6KcRcOvufr7O5DkbRhJzsdmDu7Yb8zNDrmrgB3qiE=
+       controls : []
+     -
+       internal_properties : CAAAAAgAAABH8i06/TCMO3x5SUb3qpu40glh6/pIQKVEPMiej5xRl5ZbueAsEZz18eE4H61H1yVtV+NSsHx409yPxZ8gZKvGUGiSe4Wi94o9mf5BFEF3wUi3HyAEAz5MGHsUEx6K8iJYzWn1/s1g1OCjFgm92GeoiVs+NP9Xd/pGvZN6RItZJl4ji1Jzh39hwO3Vr21FevxIaEyhfBc=
+       controls : []
+     -
+       internal_properties : CAAAAAgAAAAMsxTUeoQt3wcMKiBKwGx8/wF3C4rEHnar6V+qXnjJLfZeCuNeRhql1yxlBIBTzaA0ebLeEFtBUJxKtFO73BaP/vcnYzhgUY4lrc5mumqGZHvhoQvwwkJnSMNqLHh1nWw0PtzLtVda0IWhqL2Ql8Q87IEQtoDQouvr549shFq7oWTqM5iOGDvtb2SuY3EUSgqZnQ==
+       controls : []
+    type : 16
+    controls : []
+    code_elements :
+     type_code : 24
+     p_codes :
+      -
+        code : |1-
+         
+         // Allows all gestures on the map
+         MAP_EX.WithRotation = True
+         MAP_EX.WithScroll = True
+         MAP_EX.WithTilt = True
+         MAP_EX.Compass = True
+         MAP_EX.Bearing = 0
+         
+         // Display modes
+         MAP_EX.MapMode = mapModePlan
+         MAP_EX.TrafficInfo = False
+         
+         // Clears the Map control
+         MAP_EX.DeleteAll()
+         
+         <compile if ConfigurationType <> iOS>
+         	
+         	// Standard style
+         MapChangeStyle(MAP_EX, mcsStandard)
+         	
+         <end>
+         
+         oAddress	is Address
+         oPosition	is geoPosition
+         
+         switch TAB_EX
+         	
+         	// Drawing
+         	case 1
+         		
+         		MyWindow.Plane = 1
+         		MyWindow.Title = "Drawings on map"
+         		
+         		// Set the position on the Bermuda Triangle, a good place to draw geometrical shapes...
+         		if InSimulatorMode() = False _and_ not IniOSMode then
+         			
+         			oAddress = geoGetAddress("Bermuda Triangle")
+         			oPosition = oAddress.Position
+         			
+         		else
+         			
+         			oPosition.Latitude	= 25.080469 
+         			oPosition.Longitude	= -71.021973
+         						
+         		end
+         		
+         		// Draw
+         		BTN_SHOW_DRAWINGS.ExecuteProcess(trtClick)
+         				
+         		MAP_EX.Zoom = 5
+         		MAP_EX.DisplayPosition(oPosition)
+         				
+         	// Map options	
+         	case 2
+         				
+         		MyWindow.Plane = 2
+         		MyWindow.Title = "Map options"
+         		
+         		// Set the position on Paris
+         		if InSimulatorMode() = False _and_ not IniOSMode then
+         			
+         			oAddress	= geoGetAddress("Paris")
+         			oPosition	= oAddress.Position
+         						
+         		else
+         			
+         			oPosition.Latitude	= 48.8588536
+         			oPosition.Longitude	= 2.3119548
+         		end
+         		
+         		BTN_SATELLITE_VIEW.Pushed = False
+         		BTN_SATELLITE_VIEW.ExecuteProcess(trtClick)
+         				
+         		BTN_TRAFFIC_INFO.Pushed = False
+         		BTN_TRAFFIC_INFO.ExecuteProcess(trtClick)
+         				
+         		BTN_COMPASS.Pushed = True
+         		BTN_COMPASS.ExecuteProcess(trtClick)
+         						
+         		MAP_EX.Zoom = 10
+         		MAP_EX.DisplayPosition(oPosition)
+         		
+         	case 3
+         		
+         		MyWindow.Plane = 3
+         		MyWindow.Title = "Markers, clusters"
+         						
+         		MyDeliveryMen is array of Marker
+         		
+         		rMinLat, rMinLng, rMaxLat, rMaxLng are reals
+         		rMinLat = 99; rMaxLat = -1
+         		rMinLng = 99; rMaxLng = -1
+         		
+         		// For each delivery man
+         		FOR EACH DeliveryMan 
+         			
+         			// Describes a marker
+         			ADeliveryMan is Marker			
+         			ADeliveryMan.RAZ()
+         			
+         			ADeliveryMan.Name					= DeliveryMan.DeliveryManID
+         			ADeliveryMan.Position.Latitude		= DeliveryMan.Latitude
+         			ADeliveryMan.Position.Longitude	= DeliveryMan.Longitude
+         			ADeliveryMan.Description			= DeliveryMan.Name
+         			
+         			
+         			// Allows clustering on the marker
+         			ADeliveryMan.Cluster				= True
+         			
+         			// Adds the marker to the map
+         			MyDeliveryMen.Ajoute( ADeliveryMan )
+         						
+         			// Min/max
+         			if DeliveryMan.Latitude < rMinLat then rMinLat = DeliveryMan.Latitude
+         			if DeliveryMan.Latitude > rMaxLat then rMaxLat = DeliveryMan.Latitude
+         			if DeliveryMan.Longitude < rMinLng then rMinLng = DeliveryMan.Longitude
+         			if DeliveryMan.Longitude > rMaxLng then rMaxLng = DeliveryMan.Longitude
+         		end
+         		
+         		// Determines NW and SE positions
+         		oPosNW, oPosSE are geoPositions
+         		
+         		
+         		if InSimulatorMode() then
+         			
+         			ADeliveryMan is Marker
+         			
+         			// Display the delivery men
+         			FOR EACH ADeliveryMan of MyDeliveryMen
+         				MAP_EX.AddMarker(ADeliveryMan)
+         			end
+         			
+         			if not ( rMaxLat = -1 or rMinLat = 99 or rMinLng = 99 or rMaxLng = -1 ) then
+         				
+         				// Determines NW and SE positions
+         				oPosNW.Latitude		= rMaxLat
+         				oPosNW.Longitude	= rMinLng
+         				oPosSE.Latitude		= rMinLat
+         				oPosSE.Longitude	= rMaxLng
+         				
+         				// Displays the area to view all markers
+         				MapDisplayArea(MAP_EX, oPosNW, oPosSE)	
+         				
+         			end
+         		
+         		
+         		else
+         			
+         			ADeliveryMan is Marker						
+         			
+         			if not ( rMaxLat = -1 or rMinLat = 99 or rMinLng = 99 or rMaxLng = -1 ) then
+         				
+         				// Determines NW and SE positions
+         				oPosNW.Latitude		= rMaxLat
+         				oPosNW.Longitude	= rMinLng
+         				oPosSE.Latitude		= rMinLat
+         				oPosSE.Longitude	= rMaxLng
+         				
+         				// Adapts the view
+         				MapDisplayArea(MAP_EX, oPosNW, oPosSE, True)
+         				
+         			end
+         			
+         			HourGlass(True)
+         					
+         			// Display the delivery men
+         			FOR EACH ADeliveryMan of MyDeliveryMen
+         				MAP_EX.AddMarker(ADeliveryMan)
+         			end
+         		
+         			HourGlass(False)
+         			
+         		end
+         		
+         	// Appearance
+         	case 4
+         		
+         		MyWindow.Plane = 4
+         		MyWindow.Title = "Appearance and map styles"
+         				
+         		// Set the position on Australia
+         		if InSimulatorMode() = False _and_ not IniOSMode then
+         			
+         			oAddress	= geoGetAddress("Australia")
+         			oPosition	= oAddress.Position
+         			
+         		else
+         			
+         			oPosition.Latitude	= -25.0284063
+         			oPosition.Longitude	= 115.1931651
+         		end
+         			
+         		MAP_EX.Zoom = 4
+         		MAP_EX.DisplayPosition(oPosition)
+         		
+         		LOOP_STYLES = 1		
+         		
+         	other case
+         		
+         end
+        type : 17
+      -
+        type : 292
+        enabled : false
+      -
+        type : 293
+        enabled : false
+  -
+    name : LAYOUT_ACTION_DRAWING
+    identifier : 0x20353bc8085c4a2b
+    internal_properties : CAAAAAgAAADrFZxZW858PVmHEwQL99ogOegNP5+lVwVkdObELfCZxAl8S/SqGuKnj96408Pe/6d/E5m7EwKUl90uyl7vZgyknYF5OBR+V6Oc2fRB2785khdVfcUcbb5z76nin4M5Sn7l1LWztHThoRk1N0jm8rTIFv/KLb7VTeAIPCTYdPQl87NNCo8obHgHQvMnuG+JzgnvTK1+L/5FAFp5lmb1RDhn5+otJqC96934X52BNmMU5tl+ezjwNRvhSzJHLOPx+W63G0Hb3WyQqCXVu7WwwxkhBeT23TsbNROKBfIiMiSL3gMo7T6Gcs4DinT1aLpJkKlUcKatrrdSqBRhsKmC0BHhkKNmj367hLKBIZTY0izGljjFsHjjFKfpOiwuSOnTclDK6Cpunqd34vKGd3yBC2Se/UXaZRzRDX3Ruaau5nUK1atWNw+EQcT3XqKVsHVd5IHxJnpW54AendM+vnhnWtUyhmpdnDGfj4OFKxqrgIMUYkych3goDFjGUMPZ7KutMxf8rIhzRCfNHoHJBKjkAsnKERyydf6qcIY0fO/uIo5+7B+ZypQDL8/gMGPgETzYODqtXPEqEWpHp0E=
+    properties :
+     x : 242
+     y : 362
+     width : 64
+     height : 136
+    cells :
+     -
+       internal_properties : CAAAAAgAAABED3PbCkOSKpOXpniJKk8VpUBQdTllEReune41foVFLFxbC9gA8XJ7eietrNdttzZ+l6hlkhuu0Emsza8E+AUjaq61Xe1XxDknfFiOSe95t3aJCAxTw2GMTwtDF4WUJMWir/r2OxhQaraH5uhHzNH6unJKtvgfVPBpPJ27FH1Yc07U
+       controls :
+        -
+          name : BTN_REMOVE_DRAWING
+          identifier : 0x20353bc8085e4a2b
+          internal_properties : CAAAAAgAAABgQLuMdLGEojX2iDFflMXAzceeEYZq7oY+lSePUh+wqfKPKrS9ub7ABaHMb8/Z6grmS7Y7a9tKyLco48b/TwzvgINYtEkRZL2EqJ791SNK1s9i2MCgXtOSM/n07x7COc55Wid2Vhc38Fr3NkUb8mv0m+6AZjg9zBHBDwmPzgYgkBKFVtaJKxzZa9duQh1SSdLHwEOzan+DBWruVy2edv0nlyyEXTAoKFqKMm9yWzzFHWz/rp8bBj2iuaR1tl/fiqNbGwyRltrgkZICqTzs+waGKFWs/0knxJGLHkFnkavEAZ+ibEKRkMpRBeQcyukukMfLefuVG7yETffp65/1F/rpw/UWtUeN8IBCE/OzUdjY+ppPaRMXW+dEGX/MXB6cAoX8GE/dK9U1ZW9/qkEGtGeBgoOe/gqut12fky578Fkc3s11Nbz6FJ0u26BZimKuSpNTbxwZ8IDeo/RUxP6kpXFT7B8e4Xp274MqHDk75rk77ZsC2zrnqBJ1CKeFzcKizRLkcgG0RXMGKQbpPrIAiihIFhqXj2UseEdbeDk/j+NhAUR47KkVDF77xWNRFmtGXeYyNWI9o2GmtV7aoOR5yillXeeaDYrXfN34mAmXMAZc5XlZ0THF8cZSs8CP9gNW5mPFcoJdqojP+xUxRzBV6/E0MtG4P65EjIol9/K6el0l4mtUq4APRVI5l7k3xyQ0LAr6pNrjPFRkiYSo9kmT0jsnQiNU4FWgOB2xCNuN3gdMHsTr8R03KjpnXl93eoS6jrL4ri7YXxabmu0/ASLWtzo6wakAP7uY8dLDTqXREK0O9vWbLlixz/Ftl4j5M8zMEx9al9t2QgVCF+SNK2/4gLOfnvh9gZAatYjs1QVGfUnxDwmJ36LWM8gLWY0GxJruERX5KywhDcckro8KBt0bRdC/2En2F8Y8ew==
+          properties :
+           y : 1
+           width : 64
+           height : 64
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1-
+               
+               // Removes all shapes from the map
+               MAP_EX.DeleteShape()
+               
+               BTN_SHOW_DRAWINGS.Visible		= True
+               BTN_REMOVE_DRAWING.Visible	= False
+              type : 18
+            -
+              type : 161
+              enabled : false
+     -
+       internal_properties : CAAAAAgAAAB0t/vuJ5fgigIfGAY6DhBy3lGCajCGNlMmZ3wEqTQhJrhHhOP9581vZHcIBDcVibH9HJu/sMYn6I3fqMh4DiKKKnX57FWvEFIOJokyaJDKWp/9G9jLi+iivQBK5woHCY86I7x69mdYTo7znQo55U1l2oVdpAJcVZENTLo9Mwv1HiDWZQI=
+       controls :
+        -
+          name : BTN_SHOW_DRAWINGS
+          identifier : 0x20353bc808604a2b
+          internal_properties : CAAAAAgAAABRRZ0DW1PrIl2K1QiS1Uv0MIHgcXw/c0tHqxuD8rNDubWX6sBajLvhp2c0Fq0HfoCCmrMXx8POpHoBMnTVmF34ZLWaJTL9GgSDQRoeVHPfTM0x1GPTYEd0NKSPw/rVn0Ke0cljxB6nZFsrdHitLw8M3s/weq6yEGpiOV171wQuQaAYw1yY0kpaHGUuZFgaqIyg08hQOqrMjLer/VZwAw6kkV6eGgGvXWUM3IpjeWz6hPC7OwtRJU/mmh4boFOkffBoJVsdkkhkqc92YHKSG9B6s1Jj/NlELbHKz1f8wPwnEROua2k4IkN5PGKy6/scCtK3b4pgEfGnHYnHaz96Kol+VAS8lyGNcWBxbrKt1mVE4sk0qB2QLQmgrI3VA2j9COklycm7cpXKRXh64bE+66p6/4IgTAr8plRZo4RA811WTINFSf/FbCYv0vJYa/u+JiOnpA9xEBb1QMmxceKahqYAJ0Hn4fmNxQsJllfiv+9aEg1ZoyEyRVzBztqvU/XDUoalDi1mnlWiiJMGNduowlPbJJsXpksXN1nkZxd2Wvlmi90NKjU0Tenq+AlhvKHhbC2G9kauEBSzJDRcT/roFBoJftML1HZ7WjmUy4fNNfI/PI1QKw/SmvJ8tXcPBVvo07BmqRGHRNSVkbz51jCfImwCOaUAAiMKN+ZyNXY17kqHwJiIpl9qVtpZLoFsO4Uz4lIzTgFF8eujLKJoR/3fj/Z42rIetFz/ofopJLqFtcQvy/Q+QoVuT8jjMQpwM7G2zQeVaM0SzayZd/ffnh44SjXBn6c5Y0OGpzCGNrioqipGnkc4LwGIz2THde176/5imPAkcW0f0qz9++tN2QErtxDrSBs5XeVtdZEqn21GH3w52K1ThiT1OoTW8W87fa2DbmCxhELn47Stnd/R46ifAn69
+          properties :
+           width : 64
+           height : 64
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              internal_properties : CAAAAAgAAAAvCU4xfRo8IivASy6AC/iJ5zGkcMgRYx+rlpcs9NE3D5XgxlRzvAGhnP/PUHxKXS47jsJ8IFg8jhxTApdOEuB6Iyu+zasGCmpChPw2RMSKEDEDYmUo/agpLpbf9v3rWUpL72k7mEsaAvByk8g=
+              code : |1-
+               
+               P0, P1, P2, P3	are geoPositions
+               
+               P0.Latitude	 = 25.080469 
+               P0.Longitude = -71.021973
+               
+               P1.Latitude	 = 24.181681
+               P1.Longitude = -72.779785
+               
+               P2.Latitude	 = 27.366737
+               P2.Longitude = -71.065918
+               
+               P3.Latitude	 = 23.418316
+               P3.Longitude = -68.846680
+               
+               
+               Shape is MapPolyline
+               Shape.Point.Add(P1)
+               Shape.Point.Add(P2)
+               Shape.Point.Add(P3)
+               Shape.Point.Add(P1)
+               
+               // Draw triangle
+               MAP_EX.AddShape(Shape)
+               
+               // ----------
+               
+               C1, C2 are Colors
+               C1			= LightRed
+               C2			= PastelBlue
+               C2.Opacity	= 128
+               
+               Circle is MapCircle
+               Circle.Center = P0
+               Circle.Radius  = 75 000				// 75km = 75 000m
+               Circle.LineColor = C1
+               Circle.BackgroundColor = C2
+               
+               // Draw circle (75 km)
+               MAP_EX.AddShape(Circle) 
+               
+               BTN_SHOW_DRAWINGS.Visible = False
+               BTN_REMOVE_DRAWING.Visible = True
+              type : 18
+            -
+              type : 161
+              enabled : false
+    type : 126
+    controls : []
+    code_elements :
+     type_code : 151
+     p_codes : []
+  -
+    name : MAP_EX
+    identifier : 0x20353bc808564a2b
+    internal_properties : CAAAAAgAAAA6Xf7fAHgkECQB6uvHL3oRoprZ0WL7avZEq9EOU/mDjLV4eNMgox/do87AnCJXBNIchtCtdCMUcyWzvaJIijTAaI1yWF6Wl1p8xVR6qKJjqm4AcFoCjHjA68yLxIYdRa60yv7p7GDzT+nMScOm0MiSHZC1aiM0dIak/sSVg7VNgFnQu/44ciaMQS5NE8cWtVBqiCXK1/PG9pVJ3dSDz2xHK4gbOxEMgObEHPDoc4v+/bJ32UJFRheOB97MC8KbdneC5D9hvssFEzPwLQIaAMZCMySerAxpLG0DGhLKFBXkO7OYg2J1+q9jPa7HZ/wXj9o1OkVSn5f31XifRVTJdBVS9PP1yt0tg59rsLfJfy7/kD5z9j+fr3i8QT2z2zUoChdizA6PJgoud7lH9Ri/AxrVF3wLjgoNrumkzBdU36naZbsj8amd
+    properties :
+     width : 320
+     height : 518
+    type : 92
+    code_elements :
+     type_code : 121
+     p_codes : []
+  -
+    name : STC_NoName1
+    identifier : 0x20353bc808614a2b
+    internal_properties : CAAAAAgAAADFA4IWQgrsRngb2kfEnX4+DmUH5GiScJamO+spZ/6YRVNe/SY4rUtjnG65N3SwubwGJHQu8pd2TztrUbSCjif+h2dSrcaJyfb8BhtOl2QFXQHuBH6lsyQEgJ3cOVo3MC1EzlWhpXkrO9BDx361EuBJ9JifjsCC68EkNX5YziNQ91LvOFkenfw46JrKZW6EJ9vz36rFiUqC1deduGQYAmtsc9+1ftm9SW3wETfb3DuWtRJQXH3WcEylrLjhdHbrxwPdA1v0OR0jt89CK7pz2mei0GL+PjiGum50i4F5Unm1/cYjEYZTtmZbPzIkqjPUPY0hr078xlFN55vv6uRjkFCh3oyIymg1bT94GZRWbu5UpI6FpqGL2ZkRzde3RWOrb5z7oSWe/X8CAa1vVqElYbbD2hGzGeRot5SrsR+cTcADVVaHAPczgh/BE/4QbSxawppA2ffuknvcPqkGj1qAiKBcR+7NZGfLCuY4zK7OMc9UKLa5CpmciQMV34BmMFwTW1149BusonqxA9xp9WJ2L4+41dcV31NbssTMVhi+rCigLNdKLMnC6rSWKY6wDj66UIzO0/RLhqiGqCXFod4PiXjS0xgfMNnMoSGaa0YV00w5W+wBnVfxkrmDtNCBEPnWecQvEmt7aEAhuU9rZTZ+5Kw8KR/tdgzgrr7T6HbnGekHpV3kxr0=
+    properties :
+     x : 15
+     y : 358
+     width : 56
+     height : 140
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_SATELLITE_VIEW
+    identifier : 0x20353bc808624a2b
+    internal_properties : CAAAAAgAAAAfSZN+48fNQicRBQlvG1HODb6JEIabp5u1RWDCeP8x3lqZzRx6AmZgQ0qyeOkII6RpGi479ng4A54Bfz1GNcDHbVd1FTYQ3zxeqyaAqCyYCP0FT0A2b3pSoUvAaRIUrwW6+UinK0//ZnDhICZ4stUaq20xloVYanuc8lONmwqRRPpeWiqmbXAhwjTtckrC7k0VP2oh6BfPXxHan2bHM7ca48Fxm7EcFH6f70Vy1bzQOqnB2ew6V4VaprM0S9zi//g1m/jsVbX0kpGLw04XwWHtg7NQi0buruVHOBCmIAybLyDl6jIY7MCVHrbu/C5FznPNO0CfvBhT6qAgg8ofSoLpN0aMdPc4SDvaRghWP/BAZlXGMfL+r9KWXwo7wPmJ/YR6+KFw9VFagWQqFGIDjEfVOacf4aEMs+n8yJz6y1v1uv2O8SKLrV8+JrdUjwCG4rTpjJaFD2D1zoYworNobFsCB/SLWGW/a0HASg1/BBe13QhOmoOshwAQxLut7w6iqDkwyjiDzhvFV0HXczqh5AFp8A6vwzval5cVKBuaygsIu+pQf9cPkb1tIfqamWZbrg4XW9SGXSDgcj6H8JVSBldX/sJp7SN60BBMHPRjAsAhXYyIJMMbNnY1qnR1o3PwxoG82qqsX03fo0FSTe7sMXK0AMcjnNI1rjhuZFD1lE7B9oZiR2hDob+thiZlxrXwiyNiGD8zkH63uNr+aASBsbh3GkY2jNWowAVXh2NgD+e6PDvxgpeV1zYWNBEbfwPN/23Ztz/XyLCI9zC34kFvuO9UWUPS/XMqYRRso3V9Szop1Ixm2N7n+YK3/2zI5qP9PV0bxUbXIZZId+kKWDqt9ztD8RjeupN24Svk0ehkC5hFMirA4nXQOjjvedfSLPIMKVJsW5Blscp7WzU=
+    properties :
+     x : 27
+     y : 370
+     width : 32
+     height : 32
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         MAP_EX.MapMode = ( MySelf.Pushed ? mapModeSatellite else mapModePlan )
+         MAP_EX.Bearing = 0
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_TRAFFIC_INFO
+    identifier : 0x20353bc808634a2b
+    internal_properties : CAAAAAgAAACyzxIpuMzQKHQHaRfp5nEIxeJROPkqZqfhOJ/Q+sFUH5+9NFobm+R7Q2EPmEwWLs5LSARzWkH2KXtx3wplZn3KJGLLO7NtniBRcsN7VQCPUcfSGmU3wCQxUztwcqwuAI8tNGmwYRG0fvQiPEZlkBvjqHI5y28+E2uHgbZ1hn8FY+gl8XBrqW35t5/e/wk+GIQAMg111ZZQg4LAFlM1L+7x66VKGtwvHsIOffHRGJpoUW1abwBbJ5WxSiA9i2w2jVkYT+b40bQ5E0P9trNDZrRewQucLlUs0bf0gGlL5OV4+C5JFLrBIhMudnz4vM1c7AXpXb22DFYWg2OxNdxsVuRLolwIShA4BnKKSfQ8q66+P0Hej90Dme4S9l9ALb7NhYShvBkWnDBoAI6sz2a5zw6EtriiveaKBO8GM9jA1jKnh9qftRRhdXpIM+IFr0Lz7U1VEhT1UQurFEFFOhzYW4aR/VoSkzI79mQtQSsEnYJyaeEfp1a+x9XHup5IRokq2Dg5PK8bOBcbPWijZfvkNuJtfTUs+UNKwIH7SyrU3Aegv/neCRJIsvk2xc1ng+yRr1o5feSfe1iTxFlXuGMkpwssS92Idqsaffw6SWSmWgJZ1a2zpuTbP91uzniwAPPrCtKD3/pM0cYHRwFjPGsAtf0Wtgt3yI9HIbH+v/o2//ZhxMI+s/j6UMntK/wwIChIHp/rp2aM0cr+V7sHYoKsqzg2Q1x9Sas9JON98GhmbgjYFbpiRXjPB/VqDArxLBpEarRUfCZv5NrHFZKnszQ+BgoG8JdnWVCwytyVPZlV9ocI4fjz0Xoj0jerZ2/GOIJewEMJfb/ZbjqHt0jnZlaMP7nOyIugG58PgwfULbtg8R5KyQxkv0Mdjgk=
+    properties :
+     x : 27
+     y : 413
+     width : 32
+     height : 32
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         MAP_EX.TrafficInfo = MySelf.Pushed
+         MAP_EX.Bearing = 0
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_COMPASS
+    identifier : 0x20353bc808644a2b
+    internal_properties : CAAAAAgAAACTGR3d9LRv0tEeBBpwbIXqgFJlBlh2+XPu2AJRPiX8g/6yllJFJzMYNGNJvh+fB6Im5iHuVR6fqmrYoPKraLOIoajdQKErMEH96KUK+4aDUPq3Ov/LbPEpLM6T604ekYKuaqAY6+n8+K7on27GvuhbrgfetKi12mHR4JXUBcrO4g7gCS3VOnzjPwsnIVyqdCmqfclRyzM5gLY09Kaf9HkZgKk9y6aLDYKBLbDVcacmgN7ZMS/zIzBzx8ndgeqdNEI9Y1q1P2ONB/AxSTD9yIXsOiKgfRmQue1dkPo9EYGWkN+n3NA7SC+Md67SYrnwWCHNKm90L9q9psM8mkdXR30uPramqHzBOYJWtPYitBuPEfnhI0ashK9D67FY3eS5sJjthPfxJ3PfIBvICEWnL6fp54f/wAz2z5SSbKcbLQD9/gOGPSl76TIFkgT9gdGQkEuUlrPPtVoKmBoLvBTb7nN1DGTpm1g6z6KuIY8+Tr+5YepDgBzysHgllRrArFg/8UYsXPTfViaSaQGnLXHv+UP/qJvVsVFp97+Wdwo66dZ/JQqaEmAArwb42AmXZbM8OLKOKdOhi6/G7vpbMG1TLuL0VCX9KgmpFrw3pRSMweFiTwxdlXZzpuAWkQ5iCCQ8f/JaB8ega834cbxLGAUJlIY63RHC/BmSmI1Jq/IwGI0m+rt0LMBEDURTjDJKBBkb5wM+R+u4v42V2exrSlzJRrX+Zu5sa19mN30e9gJ6sRE/FSsCopJbHLgGJbrtKgMtbYYfBAETvrmt4DgKD5Nn6lexqy6XIaOr7K+WiJfTFxZMarf7b5RxUFVWPBg1L3s/FTbNqKaSm4xRBMQNxPoI6R0nmiTWVmla5Ip7sReQl5A0h++834Jkbw==
+    properties :
+     x : 27
+     y : 455
+     width : 32
+     height : 32
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         MAP_EX.Compass = MySelf.Pushed
+         MAP_EX.Bearing = 45
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_STY_STANDARD
+    identifier : 0x20353bc8086b4a2b
+    internal_properties : CAAAAAgAAAApx2rZpVRC4ZTKnBQBfIVA4w3KE53LZMJmaS/27F26OMpNqDm66/kYBoFA4CGsJJEMywRU2Lf3Ld6DqlmM5yEkwXQo+MT3dQFfaTSM484aOWPwG8hdupvecdsNoTvyf8A3Coo+X3K/S0IcpGqaTouOaa30QPrqXZJoRcBRKu3oGtybsGOqAimQvT3Ny87akM9lhxKUlhw0wY/8npn8afUG3BfQctzbt/UFOKdZoduQ7w1wWUMPquV7LIzQovEU5wRb6yLN9PQIUNl6dS+DBVc8L9E2VZMn+ltulS0tTfz43eIfe81TGOPuRurxEeUwylbI8xzwc5PNrRK74FQZaEF7RBu+JIJV2152nGq/ZntTFGukQf9FYKq8c8fXfO8dJmUfvsMe8nZKIW8FCZG4OVg/8cDA7P1vicUaOJ+gXBCgJpjIXcE/vrkmUVs2u/8vPnnIhnhHyiiW6tX3+7aub7/67Aq4r9zpCDEfeONr5c5y/TT3rcZhMGiCc3+tLAKlkFIbMjefdnBIsf4bvC1xWjmsrPINFPYp+jbCfGUbNlyKPzj4fHreXHQ5OjvlEpBVQGXnD0rlBzuU413lzLqq+I2k576cVUGICJ6y1PAQ1ElMnCRPCvsBeExwcZcIvodI824sTluZwwZ0qhfNRKVga8K8dW1XipS0BRSd/MfgRSskQsjYHXKs/JvYiDDLnVeqKNPLq8Tlql2dygXdm+Z6YTy0lk00hh8eIknZVQ8oImNeM9PVjAocPYzX206E01XhqKxO+b7Og7Wsz4sy3/wqXpOt/ynrokpbzOCw39uQmNoBb5kkjMgV4f6kbr6cne4C0MeRo3rNfJ3yRfvYhD6q
+    properties :
+     x : -1
+     y : -79
+     width : 64
+     height : 64
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_STY_SILVER
+    identifier : 0x20353bc8086c4a2b
+    internal_properties : CAAAAAgAAACUdGJDH28OqiPG5TT0eRC/xD9nf1L+AeVyWUCnZ10Zf2mNoKSjIWyhCyAXCUtf+5Yvls6KfH6DeZsbD5T4RQCqpm0bT1NGRf8JCiBuOY/VMepxWwSXI7fPm3TxmNVth4GPF1MKM6pPyJ/OBpceiOXVzQNZaEPzAc59oBnl+cmyBt8kTrbWJ3EoEOudvsLdevGsuUtwTeD8k0RS2yTKPi8SK8gVm050NjfNUuWko5GOvHze5T/8chKQ1xRKSsfpn+x9Uf51JgWxowBuOwFkR7u7Q5w2BuuxAG1LrAVAOm0lPubC8XM31sd1DbwLF+I7Q9agKjz1aQ9r05QNtYezNvzy4T0uDXRQFib2zyy0/MnccOiwdW3iSxkCCgCko34Yfl30TKp4NK2UGaAanj5Lme1qcIhohs2wj3XMz1OGM6eS8P3a+7zufhA60+YamL4oAtPWeQ8Gj20p0UrPudyXhdliDzl4jXhX5zkfasCTH2gnTIBZNA+uuy2Nbp0gpnKCD1mPAt9S2ILrbGa4JPl2g52DzfFqwtw8QFZ519V6mmnI9sCTGul/QEKKPyaILUIVA0w3SmFg9vYAjEsp6LTqFcbkgpXnZovIo6s6ZHido3ul0RLB97OZxSQcjEzb6NfcxG0NnUoeywVne5woVk1yGpYier8peLYJx/Wj3qIxO58DAaFyVHJrS91VEe1/WTf2L4XDgJEj/kOmrlD1DxGlx2Ipzjn0caGcNmnZT/zXiAkQ8CxEc3vCb2Ww4ixEnE3goZjwrr03uuCFA8OKwKGL4OGwz4I4UGOIjHDYky+MUbB4UN7IsMMMNlSE7oSrvXmpFkPQuXlO
+    properties :
+     x : 38
+     y : -79
+     width : 64
+     height : 64
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_STY_RETRO
+    identifier : 0x20353bc8086d4a2b
+    internal_properties : CAAAAAgAAABxH5o9JVe70mLZ+x64V6vD5m2ZRebAZc3cIBmNcWGYXoYAEYl+Rd/ClhE4/2tyLQwrA1s7IwIz/26pMmdhvCOyjBuXLTArcK5LOsllX/h4HBtiRhbGiqKmg2s8jmsKf1PcOxaFw/lYHJKngF5v4JMZQpU3aC0NtgwhvXv29s95Hf0nZ8I7bAdgqi9Cit7cJ7i5z8xKb6FS1FcPvxyW8CN6A9tIlMZSAi0532xaKE920XEnJd3JGVN8tLiYIsb+KWBoY6wYk4ZucYsf43g4E+BLQopi3oXdrDgckMmQgHLOTMXoQS3yHRky58iZa9MdoRjPh5r0+m9bqG/fKbFYJKgsaWgX72guMb9CQ8hPNOvbQTeTAq1ogXQt0m/M4ZmVfHM1MTha6z+2r8Yxjdo33OtS3k8trxVqLPoxOpLhRZxBQOIc9IYtppoC+hZElaKOwcPc58Dvutueku2dfFM/DVvzYKTTCXzq/lZDCnPpRqtNqEDuJv9xPwC6gfkqkMsmcFzzVcwOsS4mpcem/5JEOxdKMk0tx7c24DD2jYWRR2IlfG0YO3UmJiR9nKxY3lP0mxYvHGG1WJs8arDGUxqL9Rni2dCFvQ26KQHGequMQx2w+/sEtS+iRQc6wrOfinw5c/gJgJJGVB8Rt7KzGkwnrOzf0wbadyjCFc2SLEWorqTrWl37l5qNA2RoumYd5hsr2MS4EzvMjKPlu+rX+td8h4XWKeK4zESeMN3v6GiEnNdcchX5919XNVwdUTmTfiWRhUYiYzFV4w7XM179Hte9bZV/2qKProQ3vIFb8WJ8QIqBHGIqyFUzxbm2FIXwcfWARkTFVuo=
+    properties :
+     x : 74
+     y : -79
+     width : 64
+     height : 64
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_STY_DARK
+    identifier : 0x20353bc8086e4a2b
+    internal_properties : CAAAAAgAAABqBK8WKohce722pOcReBSKfRSiTNXJXs7PGVroBFTHo9uJZJ6nPDK1pxQrmoa19FlQmL5Y/OkmyoeEpTZ40wYbbTxWCiEGj+VEZQjwmrM/yUDDKce7dWkt/BrDcdDKAz2gSYRDwanelDbx2AC3WONXok+NQo+NbNRZK2fkRndN38nNcXDtqAnbryJFEdXbTqGSVCN7MOHjJ1RILq2lp2qdJOZtPxm1h/Bu0MvLD24dSFoi6sDcDFgrpdXzO+1NmPM1wk3fdgHLVMSUnmmPgvsGE1HTfVioobt5acd9Jf+7E/iHdgB1fpprIJkidHBqyr/yblaiBWRgja0mFrC15KXf/GDqVmWp+/PWbXnGKsad5dl8O9JfI7+2kwih6BlP7XqPD8UmcOU7ariULRgdzh4jxmq+8kwof0P8jnSxbX9sHblXooJPl8gTPgqdYLvolWbB5S0EdaN5f2SKHXCoF+m9WmCUubVflBSFYfNSWInztrYRcRhqAbrUs1WdNYSZV4z6EEvL9uUn5EKZnGVfcEiBgyaWDn4f76GoqbNJB1gf8InwPZUWNPaPJkTiat+mSUbfDDtVuHkWNFI6OdKL+wPSMWD3zf2QA2tsdom0o4vSoxtMb8caw3kM0A99glQAGiEA73FnRR5Shn3u5Zl0ielcpoWHmBnL5Fovt96RFzV4axzO8H86qA+Vj7HOd7SUAfEvunhl1WRcMAsAnw7jvC71pkt1q4tDE87o8W2TmzTZ7b72ONrarhs67g6EoQiKsnFvxEZMeoNKFEsKJ8KgdvJiz0N8/TtEDzIQDndP21/6m/Or2WSyVog3JXaB4GShR0PMXeE=
+    properties :
+     x : 110
+     y : -79
+     width : 64
+     height : 64
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_STY_NIGHT
+    identifier : 0x20353bc8086f4a2b
+    internal_properties : CAAAAAgAAADrhS6blxnhcIwrMQwySXEtpFNjixBSyxs2QoctyZH49haAmXHmzee69mmIV2v6FYwTa+u74wLjz8ZJepfZTEOKXMvPhWiTyCaLYllNP9AgrBPKdqa2GuI2ayvEMgv/lGiLqNkuYCYvBWVuiWkUxfwaZa4iARIidQ3MyHidp5iq7nAQEkMs3ZJVLU5DiQctAF3kYFczVJfDBTK0iOF7BYyR/qplF43Lz2K4eNEzBWwf9BTWItggHuTtU3GBF8Ozsr9TGiFTIisnuk78tP3RDIWSgRHDPTCuob3XXRVFi0XxU7rzOkRJ3Jr1PqVoTBLcMH9Y1k4erVKg31OSTETLckNncuDYonk7e+noOUPONAgX9Wf4s9rvCfNsWSBvlFsJ9rJsJ1n2MJsfAFq4X1DrNDjXauTcwHovbyMocnw5VXYHNH6IfQXaDgGqYY8wr9JzIOmqSuUMjFY2uqNzVNubbiD0E51fbHDuHY8UkqoFE0Cq5TmU7p3XgoHNdIxeSonqhD0lA2DYa0Z+3X/sYaaYRQ3GVnFTy7Mwxvb5YIS+fNFEnQw7wvJLxb00+0ub/3Q3Prti22R+gbYJ+cctzqNcCBzn3N+gtoYNjuT5xVr5MGTLGIb7sBjLEMwB+dpq88Xd5/obkr6sAqehZwLh6oplDGzZnfh27SbCFd2WDrnaoDAHdF9FS0hjeyRYFgCRsO1fzMaKGdNG9j8xd06jLnPIe5nizbYksOA6DCnjFAzw+EvAztk9Q4MzEXiZNcUXqlF1qWIWJ22JP+pzf9J5sjPZ0Qn7XiYbEiCjGA0DifY0+Fa94LbqBE3bYZ3KtN1U2RUUysBL3GA=
+    properties :
+     x : 146
+     y : -79
+     width : 64
+     height : 64
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_STY_AUBERGINE
+    identifier : 0x20353bc808704a2b
+    internal_properties : CAAAAAgAAACOCxGlvN7FRd3kRnL61jxQJVwCTEf9i85FZVV2Z/4uO0atf7Slk1VcDNAVlr0ohZwK/WwlZFZz3vScikQQ7SzBqkesbDwHcor7lnB2FuLCo4uNpNTjdGYDgs/3DfPw771yzPoiKTV5rKiT3gkEYq5R1jptvzlGw7FzbSQbgEiOsZjl3HUqMSt2jun8fLCF9JP8BOMFmN4cjOQH7b3bnwE3Jz0RAunZkM/JkvC8DeBVxv3oxCHd4EqvJUDsRDR4PfC0SNHJKof2aVQAs00HOC2Ua0ca3jd9/AbL0bfcSsLsZ1NgRmBmX+ROLp/nuaP1xpu3VYvKQyaf2HW3lWkLXvYUlHRsQccVt6SZ4T64nJgJevd6TxSFttQP6rk3j+7JiaFdO/aRl3bk/+v0QKF7+m+VlI9cgssUYjVbEi6o50iT5Z1TvKL8NLLKZQQVSG4Z+32Z+H/MQQgWLMQfNz1/2QWDBKLY5bjOgkoy4FYWFrWFP8PAe0O8/UBilCc0WoQsz6nI1dUW9DuuhCmJBOgQoD7kqEz42kECvM9acXcy7hTGZh25E5rUPsLm9MWo58VVCyaTqv+uPSWULISb9Qq+gi9xP9BlUl28kxkMbV9qxf2dFE6I2OgyyNnfJPzH2GFz7XWtfsb2gikJFnQ/gZJ1nRtOgOSkUqkA7e+kBx39+S2vVDZgCM9lotQy+8x+e5+LDpAa6JbR0l6xkQGB5q9Nlc202h+5Nk1RgJk6zoJgGWACUKxstnNq0SaXyqFZMUzEjQBgP5mI+cU1TkHvwmG7lFcfEq1+hnKtf7pVA7R1GXRoqAqMBYvqrozP1scL1aB1bU1nVABsXsorsbh6WEc=
+    properties :
+     x : 182
+     y : -79
+     width : 64
+     height : 64
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : LOOP_STYLES
+    identifier : 0x20353bc808654a2b
+    internal_properties : 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
+    properties :
+     y : 400
+     width : 320
+     height : 118
+    controls :
+     -
+       name : STC_ImageName
+       identifier : 0x20353bc8086a4a2b
+       internal_properties : CAAAAAgAAADbq+W1wU1NtJLHMYP286fPhRtH8Plm2kUa9Qn3HJWnu6uxAzMy+gIeIFs0x9UY/a3E0xAtR7fkN5VZi6oXpjAm0gBLVzNjBiJjIJUDJlCHb+mWdhSMlImq+wShoVPsmOXEEyhbNAG4VesV8Ge5pkq24fbxsQhceR0TxSOi/t8OgqLeWPBC9e0iPlsqXOhyQzFaHWW54s51Vm8pA06ZdNUt6LayqQx++jbRwSKb4huOl0CjHORXskY5w1v04LvF1w3kIkVyPJIT4Du8nTV0YTcHVXJYzX7DVNDfhY21NPWdabTMUM4XzZHTUoMBremFtfgdOB+1jaoyXt/qnAG/gwRgGIJ51NR/RPuC5gwpqnwnrGesrVm2Qhk6SNiD4ni7wAcvk1TgMobWpPEohyA/0IqDbLN6p2jBJ6nXTHe/CbgH0hEJyVAtXj7izIf8TtG35sfW41CjTGXzmXM=
+       properties :
+        x : 8
+        y : 75
+        width : 64
+        height : 40
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : IMG_Thumbnail
+       identifier : 0x20353bc808694a2b
+       internal_properties : CAAAAAgAAAAq1qXypZI8jQcToAFRes1xy17O72IDI5drTPjLLX+gkqvyq4D2HQ/RBsVa0z3fCd4ht2M8oMmPQs1PLGk10vZ043pq0PYRxrqEYq6R1CW7wdHk5JfK7rathv0G08W68J1egOUM7crXVXV/oGHIYhgPEE9kAJRFUnFEXVlRfdw/N077kEj46DftLp7/gyfgIRoWI+QMDHdkW0pJwdbH+TOqvNskBE7Y6MUzwSL446qbW6wVoxEWVek2pDY5SwYHEojBFKmiLCdRGr4PrHu8JH1rAwTR0sdR4FkONE7x5bzeebMTHW/FLAFAVVqZEcUgEndO1EVXtWj/WZoocOx7lF2lQSyy4giaFRa7EMOEt9+bIm2dpB7DyRwhMKTluw8p+LmBoqyBcVeySON8uRNXXYIViqMm/b5CzJlBd85SQvqra3db4ksTETcnbaJ2KQEktxYTSfAtltZMk0KS0Mz4EhriqMt1A/462Q7abur6qMclqBOkTAmIgY4VdYL/PaBF0SS/eSufUx2iy89oJuFyE5wLzNaODVwmX5ASM+Oc96PMHbowOGSUQ1GYxXUEDZ5fgkzfJHP1jahlLBhiXqH3dUeEFaR0ECOexlMD1qmcyDO+Ds0V+rI91yfK1pHrMXVrqnKjfJhNQi++URPN0aKxU71NeinvatlW1xUzfIQGIrHLXq5Z5jOGxkjgPCroSm3UunjetMOm5CEELFRPfbSvie+u8vOoFEeOBB1vmL8iy9LfZ5FCSxvw2F6g7cx4ltPLIyQ=
+       properties :
+        x : 8
+        y : 7
+        width : 64
+        height : 64
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+    columns :
+     -
+       name : ATT_PREVIEW
+       identifier : 0x20353bc808664a2b
+       internal_properties : CAAAAAgAAACAfzHKMEtEgFN5fnAd+HRyFeocK0eNbQ+Qx85/92CawSV08oh8YUMGvLbOsCrkwKZ/k6o4NyHO8tNRH2IcTJUehP/a5jaCSZP5vYq4xkb0Jt6QOeJ0HLXkkKfDxl8KmIM4SdGbr7B/54nUnHE/dY8Ej5GeZJrE3KKCyeSfvKwPDA==
+       type : 3
+       content :
+        identifier : 0x255796220182c3ba
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_NAME
+       identifier : 0x20353bc808674a2b
+       internal_properties : CAAAAAgAAAAC8bNUuoWyiv4n7uCBrBb+cfvsOiZis6PymbCJmT6Ku4005txW0xWuwnjsujTa3Izfc5LYHQcESv2L4bxWssn8dWixVz/hVEJKTqlpLZdl3zsFtGcBqxxbHTTuo/qfyUxFbowQ5DsGak6J8DZNh+A/cjwf6/2FB1B8854lOi6Njg==
+       type : 3
+       content :
+        identifier : 0x255796220184c3ba
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_STYLE
+       identifier : 0x20353bc808684a2b
+       internal_properties : CAAAAAgAAABmROpQUB5kHkm08JUAvpEPfcvLfFJj2bPwUav3TM+MGCJr5Bh6jRRlmuELAtID0Cxohi01ISLbXFPCJVoY2phiMMvUNUxbMZG2VrausGqY2Tgc01UnaICkUrB6spSnpH84eB8V/Um6GMI=
+       type : 3
+       content :
+        identifier : 0x255796220186c3ba
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+    type : 30
+    code_elements :
+     type_code : 42
+     p_codes :
+      -
+        code : |1+
+         
+         <compile if ConfigurationType <> iOS>
+         
+         LOOP_STYLES.AddLine(IMG_STY_STANDARD, 	"Standard", mcsStandard)
+         LOOP_STYLES.AddLine(IMG_STY_SILVER, 	"Silver",mcsSilver)
+         LOOP_STYLES.AddLine(IMG_STY_RETRO, 		"Reverse",mcsRetro)
+         LOOP_STYLES.AddLine(IMG_STY_DARK, 		"Dark",mcsDark)
+         LOOP_STYLES.AddLine(IMG_STY_NIGHT, 		"Night", mcsNight)
+         LOOP_STYLES.AddLine(IMG_STY_AUBERGINE, 	"Aubergine", mcsAubergine)
+         
+         LOOP_STYLES.NumberColumn = LOOP_STYLES.Count
+         
+         <end>
+        type : 14
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1-
+         
+         <compile if ConfigurationType <> iOS>
+         
+         MapChangeStyle(MAP_EX, ATT_STYLE[ LOOP_STYLES ])
+         
+         <end>
+        type : 33
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+ actionbar :
+  name : ACTB_BAR
+  identifier : 0x20353bc808714a2b
+  internal_properties : CAAAAAgAAAC+c3eh9AgGQnfcCsdVv4XSExhin/PkvEZxGCLIj7/XTc+inDyen1nQSQtVk7QawBofTED2s2KIuLspOXYVQrnEEg5PA3hc+z2wV/zKD81v4EDma1SpsggG4HSBQ3ixvzUnB0jBRr8wLxPsFjf8M8ibUOu19Kqy7SN3VcugXEpzxm5XSmPvTEq18uBaOO0DBtQmLqgzAXlLrNKd2S6MEgkdM41gpolR3al8ZTMWeaaoJSqZwPgCVqq+jJquRA+qaCj4DB6LI9lM8yn3MoqhUc8ujOs4vZO8MRh5e96SESZc/s8KttBauiF0l7rtCxWKzku0qSuyN7iMPcqWAIkMmrMmARlgZugsyn64YozTbChDVlcD7eNXd3f2
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAADgMVTORwj2Mt8z/R5WRL0mTVIMDO11ij5YdBwcO3ZAw8tWdEBL95DgWGGgMGBRKql5dANp5Vg/qpNyJvJQ8sIrr6GzC+masJIwyV5P7DpW0go2kGsf4EvdW1eqlu6V7I5EHVrMjd02cTaXwP0dbd1DSbdsd/Wxk0ScMGI7Z0eDsGOMLRfieoTYskOjcLtA7tgFoR24z+3d3zH3Bloaoqj6XKllvOzqHQUKs5ikiJtsiZpXF9leDIYykRzjnC4k4qQVjthAFpugw+diG+HfnEMv+L/rU3DRjlIiDq+0aeUP
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      procedure MyWindow()
+      
+      <if ExecutionTarget = iOS>
+      	TAB_EX[ 4 ].Visible = False
+      <end>
+   -
+     code : |1-
+      
+      TAB_EX = 1
+      TAB_EX.ExecuteProcess(trtChange)
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1fbd41710004ce39
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text : {}
+     index : 0
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

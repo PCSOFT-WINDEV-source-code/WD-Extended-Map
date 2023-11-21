@@ -1,0 +1,256 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_GEO
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1fb527920013cb46
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes :
+   -
+     code : |1-
+      
+      gsKey is string
+     type : 720896
+  procedures :
+   -
+     name : geoGetAddress
+     internal_properties : CAAAAAgAAAD/DxzJaIcmG8ntmWzBngxwFfYPDCq33RrmYDWz62I4Th5pFPaPerqAOyMbuqscWkqwtLiYY80aw3u6JFJ6um5u1IBtjEJuODVZOce2ogH/dl6Ix96hwDScLzzVE0RMSCNiP3e8dJVllZ5NXcopSgNU/Qaah6QXTTvngtchuRXv0mObagScoMB5EoWMhkPY13zieKuEvyJbQNbBjHmSeixEW/rw6wci1luYZB8XBvL90FLZelcxbL7SA4v3UDoCQqRBNYcwgUOlH9q/kEDN/YpfGxH9yok/l/2X
+     procedure_id : 2284776821693420990
+     type_code : 15
+     code : |1-
+      // Summary: Retrieves an address or a list of addresses corresponding to the description of a geographic location.
+      // Syntax:
+      //[ <Result> = ] geoGetAddress (<sDescription> is string, <arrAddresses> is array [, <nNbAddresses> is int])
+      //
+      // Parameters:
+      //	sDescription (ANSI string): Location whose address must be retrieved.
+      //	arrAddresses (array): Array of Address variables that will be filled with the list of addresses corresponding to the position.
+      //	nNbAdresses (integer - default value =10): Maximum number of returned addresses in the list. If this parameter is not specified, the maximum number of returned addresses will be 10.
+      // Return value:
+      // 	boolean: True if at least one address was retrieved, False otherwise.
+      //
+      procedure geoGetAddress( sDescription is string, arrAddresses is array of Address, nNbAddresses is int = 10 ) : boolean
+      
+      arrLocalAddress is array of Address
+      bDone is boolean < critical section > = False
+      
+      	// Call the callback procedure
+      	geoGetAddress( sDescription, __OnRetrievedAddress, nNbAddresses )
+      	
+      	INTERNAL PROCEDURE __OnRetrievedAddress( arrAddressesEx is array of Address )
+      		
+      		// Copy the addresses locally
+      arrLocalAddress <= arrAddressesEx	
+      bDone = True	
+      	end
+      
+      	loop
+      		if bDone = True then break
+      Wait(0, waitTimer)
+      	end
+      	
+      	// Copies retrieved addresses
+      arrAddresses <= arrLocalAddress
+      
+      return ( arrAddresses.Empty = False )
+     type : 458752
+   -
+     name : geoGetAddress
+     internal_properties : CAAAAAgAAAAXwdd4oLTxsVmm/QGEEXFY2114OkVWKKzGaS3zcYoeRwPNeDKdwnx2gdpip8eJnbYy0wBZy+mzOCCgY+d3LNM8vvfKcndOw32LeDPM1rfoX0/vc5p/WRPBx0EPIGJTL/vkwvloThismh+3ILSY1mxeqDN1/wCeFf5bUow7PSSShVHpbLhtt8KWvxmiG5fwgosALpNIY/8huo+Ry5RV5ihMY79mXMdZ/khZNazA0SWMIbqJpKOBAIHW/lNzn3Jkg1PLldvbCYvM
+     procedure_id : 2284776821693420990
+     type_code : 15
+     code : |1-
+      // Summary: Retrieves an address or a list of addresses corresponding to the description of a geographic location.
+      // Syntax:
+      //[ <Result> = ] geoGetAddress (<sDescription> is string)
+      //
+      // Parameters:
+      //	sDescription (ANSI string): Location whose address must be retrieved.
+      // Return value:
+      // 	Address: Address variable that corresponds to the location description.
+      //
+      procedure geoGetAddress( sDescription is string ) : Address
+      
+      stAddress is Address
+      arrAddresses is array of Address
+      	
+      	// Retrieves a single address
+      	if geoGetAddress( sDescription, arrAddresses, 1 ) = True then
+      		
+      		// Copies the first address
+      stAddress <= arrAddresses[ 1 ]
+      	else
+      		
+      		// Propagates the possible error
+      ErrorPropagate()
+      	end
+      	
+      return stAddress
+     type : 458753
+   -
+     name : geoGetAddress
+     internal_properties : CAAAAAgAAAAEj/J/NHDMlrXAhpBNHJ5U2x2yBoQVElf+flMIOt8GK6fT37spiVyhMU4wX+EFoh4j8Pv41hNehA+sE9PHchOcdpry/o/MuuH5V9BHv+LVgIvvEiJkLSTBQlfN/kQlxlRGr2azntx55kMegW0jUx4lfOC6hpY6F8UcuoPMAPknBd3QRAdvJRvS9/wAx8guFX4Ir7CnKZtbOxyr9lSelgJnlWrWXx2EJO8Zrv1bVqjBhhAAJ9reLqpLMFuaos7T1KLPgr7qy3YzcxzgkrFkF/qqP4MXDvsbwrDckrC55xGx0xxJWPB7RyH9FUoCYkHXzXwf3iQwZ7/QHXVh0V7Lvv9ISHb1oIDq5IlBc8fB/I5lSAB61LwRhubEi8oiZ5M=
+     procedure_id : 2284776821693420990
+     type_code : 15
+     code : |1-
+      // Summary: Retrieves an address or a list of addresses corresponding to the description of a geographic location.
+      // Syntax:
+      // geoGetAddress (<sDescription> is string, <pCallback> is procedure, <nNbAddresse> is int)
+      //
+      // Parameters:
+      //	sDescription (ANSI string): Location whose address must be retrieved.
+      //	pCallback (procedure): WLanguage procedure ("callback") called for the location whose address must be retrieved.
+      //	nNbAdresses (integer): Maximum number of returned addresses in the list. If this parameter is not specified, the maximum number of returned addresses will be 10.
+      // Return value:
+      // 	None
+      //
+      procedure geoGetAddress( sDescription is string, local pCallback is procedure, local nNbAddresses is int )
+      
+      arrAddresses	is array of Address
+      stAddress		is Address
+      stPosition		is geoPosition
+      stQry			is httpRequest
+      	
+      stQry.URL = "https://maps.googleapis.com/maps/api/geocode/json"
+      	
+      // If <sDescription> contains coordinates
+      if sDescription.MatchRegularExpression("(\-?[0-9\-]+\.[0-9]+),(\-?[0-9]+\.[0-9]+)", stPosition.Latitude, stPosition.Longitude) then
+      		
+      	// "Address Lookup": get the address using coordinates
+      	stQry.URL += "?latlng=" + stPosition.Latitude+ "," + stPosition.Longitude
+      else
+      		
+      	stQry.URL += "?address=" + sDescription.VersUTF8().URLEncode(encodeURLFromUTF8 + encodeURLParameter)
+      end
+      	
+      // API key
+      stQry.URL += "&key=" + gsKey
+      		
+      // Gets the answer asynchronously
+      stQry.Send(__OnHTTPResponse) 
+      	
+      	INTERNAL PROCEDURE __OnHTTPResponse( stAns is httpResponse )
+      		
+      		// If the response is valid
+      		if stAns.StatusCode = 200 then
+      			
+      			// Read response and decode JSON
+      			geoData is JSON = stAns.Content
+      			
+      			// If there are results
+      			if geoData.results..Exist _and_ geoData.results..Count > 0 then
+      				
+      				// Iterates through each result
+      				for each geoResult of geoData.results
+      					
+      					// Sets a new address
+      					stAddress.Reset()
+      					
+      					// Postal address
+      					if geoResult.address_components..Exist then
+      						
+      						// Iterates through the components of the address
+      						for each geoCompo of geoResult.address_components
+      							
+      							if geoCompo.types[ 1 ]..Value = "street_number"	then 
+      								stAddress.Street = geoCompo.long_name..Value
+      								continue
+      							end
+      							
+      							if geoCompo.types[ 1 ]..Value = "route"			then 
+      								stAddress.Street += " " + geoCompo.long_name..Value
+      								continue
+      							end
+      							
+      							if geoCompo.types[ 1 ]..Value = "postal_code" 	then 
+      								stAddress.ZipCode = geoCompo.long_name..Value
+      								continue
+      							end
+      							
+      							if geoCompo.types[ 1 ]..Value = "country" then 
+      								stAddress.Country = geoCompo.long_name..Value
+      								continue
+      							end
+      							
+      							if geoCompo.types[ 1 ]..Value = "locality" then 
+      								stAddress.City = geoCompo.long_name..Value
+      								continue
+      							end
+      							
+      							if geoCompo.types[ 1 ]..Value = "administrative_area_level_1" then 
+      								stAddress.AdminArea = geoCompo.long_name..Value
+      								continue
+      							end
+      							
+      						end
+      					end		
+      					
+      					// Geographic position
+      					if geoResult.geometry..Exist then
+      						
+      						stAddress.Position.Latitude		= geoResult.geometry.location.lat
+      						stAddress.Position.Longitude	= geoResult.geometry.location.lng
+      					end
+      					
+      					// Stores the address				
+      					arrAddresses.Add(stAddress)
+      					
+      					// If the limit is reached
+      					if arrAddresses.Count >= nNbAddresses then
+      						break
+      					end
+      				end
+      			end			
+      		end
+      		
+      		// Call to the callback
+      		pCallback( arrAddresses )
+      	end	
+     type : 458754
+   -
+     name : MapLicenseGgl
+     internal_properties : CAAAAAgAAADga5KFdUJHdGSn13Lza3wfGyF4Q95aBAlvXAS1KRv4EaRXTuTfEoo6/9JI8raiLBQ72qkEVoOFdqndEC2onDZ5yqd3iI/9h0BIL8OivYywTPtiTkFAys4gsx15tD9cqRAahRRboA1aqyjBJ5NWD+pQLDG35IZjyjiiRfc6xyNkM/eBIx23H+uHfITuNkSuxPfTICoBmKJdL5XFTYKbWsE6jmp0ZVwjc9A4G6ygabb0O/x9hl7E403wmwY/dujxK42gD3iFdvpHZunfuwvwpjNyPOxi
+     procedure_id : 2284778337816967553
+     type_code : 15
+     code : |1-
+      // Summary: Indicates the "Google Maps API" key to be used in Map controls
+      // Syntax:
+      //MapLicenseGgl (<sKey> is string)
+      //
+      // Parameters:
+      //	sKey (ANSI string): Key provided by Google.
+      // Return value:
+      // 	None
+      //
+      procedure MapLicenseGgl( sKey is string)
+      	
+      // Stores the key
+      gsKey = sKey
+      	
+      // WL rebound
+      wl.MapLicenseGgl( sKey )
+      	
+      if sKey = "" or sKey [= "<" then
+      	if InTestMode or InSimulatorMode or IniOSMode then
+      		Info("Don't forget to specify the Google Maps API key to use this example")
+      	end			
+      end
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x1fb5278d0011b6b5
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
